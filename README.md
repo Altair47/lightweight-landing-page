@@ -1,2 +1,2 @@
 # lightweight-landing-page
-Odin's landing page project
+Odin's meme landing page project

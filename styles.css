@@ -17,9 +17,20 @@ body{
 }
 
 button{
-    background-color: #184c95;
-    color: gold;
-    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    font-size: large;
+    padding: 1% 15px;
+    text-wrap: nowrap; 
+}
+button:hover{
+    opacity: 0.5;
+}
+button:hover:active{
+    background-color: green;
+    opacity: 0.8;
 }
 
 a{
@@ -30,6 +41,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 15px;
+    border: 10px solid rgba(0,0,0,0);
     margin:0%;
     padding: 0%;
 }
@@ -73,6 +85,66 @@ ul{
     padding-left: 16px;
     width: 400px;
 }
+.image-cont{
+    text-align: center;
+    max-width: 200px;
+}
 
+.pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-bottom: 7%;
+    padding-top: 1%;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .image{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: #3882F6 3px solid;
+    border-radius: 16px;
+}
+.quote-con{
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 10% 20%;
+}
+.quote{
+    margin: 0;
+    padding: 0;
+}
+.quoter{
+    font-weight: 900;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+.callnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.blue-box{
+    background-color: #3882F6;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6%;
+    width: 65%;
+    height: 100px;
+}
+.blue-box div{
+    color: #E5E7EB;
 }
